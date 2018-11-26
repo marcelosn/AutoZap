@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{015465D3-A18B-4A06-BB58-57F785F1FCAB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AutoZap</RootNamespace>
+    <AssemblyName>AutoZap</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Pixelkit-Flat-Jewels-Chat.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>AutoZap.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WhatsAppApi, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\WhatsAPINet-master\WhatsAppApi\bin\Release\WhatsAppApi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Inicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicial.Designer.cs">
+      <DependentUpon>Inicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="view\EditContato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\EditContato.Designer.cs">
+      <DependentUpon>EditContato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\EditGatilho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\EditGatilho.Designer.cs">
+      <DependentUpon>EditGatilho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\EditGrupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\EditGrupo.Designer.cs">
+      <DependentUpon>EditGrupo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Gatilho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Gatilho.Designer.cs">
+      <DependentUpon>Gatilho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Grupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Grupo.Designer.cs">
+      <DependentUpon>Grupo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Opcoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Opcoes.Designer.cs">
+      <DependentUpon>Opcoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Contatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Contatos.Designer.cs">
+      <DependentUpon>Contatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\WhatsAppReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\WhatsAppReg.Designer.cs">
+      <DependentUpon>WhatsAppReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\WhatsAppTeste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\WhatsAppTeste.Designer.cs">
+      <DependentUpon>WhatsAppTeste.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Inicial.resx">
+      <DependentUpon>Inicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="view\EditContato.resx">
+      <DependentUpon>EditContato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\EditGatilho.resx">
+      <DependentUpon>EditGatilho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\EditGrupo.resx">
+      <DependentUpon>EditGrupo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Gatilho.resx">
+      <DependentUpon>Gatilho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Grupo.resx">
+      <DependentUpon>Grupo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Opcoes.resx">
+      <DependentUpon>Opcoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Contatos.resx">
+      <DependentUpon>Contatos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\WhatsAppReg.resx">
+      <DependentUpon>WhatsAppReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\WhatsAppTeste.resx">
+      <DependentUpon>WhatsAppTeste.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AutoZapClass\SQLiteBAL.csproj">
+      <Project>{A3A816F3-43F7-41D0-90D1-1580DF66EA09}</Project>
+      <Name>SQLiteBAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AutoZapService.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pixelkit-Flat-Jewels-Chat.ico" />
+    <None Include="Resources\cross.png" />
+    <None Include="Resources\pencil.png" />
+    <None Include="Resources\lightning_add.png" />
+    <None Include="Resources\plus_octagon.png" />
+    <None Include="Resources\group_add.png" />
+    <None Include="Resources\user_add.png" />
+    <None Include="Resources\cog.png" />
+    <None Include="Resources\terminal.png" />
+    <None Include="Resources\lightning.png" />
+    <None Include="Resources\group.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\accept.png" />
+    <None Include="Resources\contact_email.png" />
+    <None Include="Resources\whatsapp.png" />
+    <None Include="Resources\disk.png" />
+    <None Include="Resources\cancel.png" />
+    <None Include="Resources\connect.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

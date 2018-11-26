@@ -1,0 +1,13 @@
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapClass\bin\Debug\x64\SQLite.Interop.dll
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapClass\bin\Debug\x86\SQLite.Interop.dll
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapClass\bin\Debug\SQLiteBAL.dll.config
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapClass\bin\Debug\SQLiteBAL.dll
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapClass\bin\Debug\SQLiteBAL.pdb
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapClass\bin\Debug\System.Data.SQLite.dll
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapClass\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapClass\bin\Debug\WhatsAppApi.dll
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapClass\bin\Debug\System.Data.SQLite.xml
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapClass\obj\Debug\SQLiteBAL.dll
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapClass\obj\Debug\SQLiteBAL.pdb
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapClass\obj\Debug\SQLiteBAL.csprojResolveAssemblyReference.cache
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapClass\bin\Debug\WhatsAppApi.pdb

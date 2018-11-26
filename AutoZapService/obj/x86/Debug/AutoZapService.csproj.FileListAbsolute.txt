@@ -1,0 +1,17 @@
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\x64\SQLite.Interop.dll
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\x86\SQLite.Interop.dll
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe.config
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.pdb
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\SQLiteBAL.dll
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\WhatsAppApi.dll
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\System.Data.SQLite.dll
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\SQLiteBAL.pdb
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\System.Data.SQLite.xml
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\obj\x86\Debug\AutoZapService.csprojResolveAssemblyReference.cache
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\obj\x86\Debug\AutoZapService.AutoZap.resources
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\obj\x86\Debug\AutoZapService.ProjectInstaller.resources
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\obj\x86\Debug\AutoZapService.csproj.GenerateResource.Cache
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\obj\x86\Debug\AutoZapService.exe
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\obj\x86\Debug\AutoZapService.pdb
+C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\WhatsAppApi.pdb

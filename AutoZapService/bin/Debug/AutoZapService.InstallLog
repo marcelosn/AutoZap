@@ -1,0 +1,84 @@
+﻿Desinstalando o assembly 'C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.InstallLog
+   assemblypath = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe
+Removendo a origem do EventLog AutoZapService.
+Serviço AutoZapService está sendo removido do sistema...
+Serviço AutoZapService foi removido com êxito do sistema.
+Desinstalando o assembly 'C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.InstallLog
+   assemblypath = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe
+Removendo a origem do EventLog AutoZapService.
+Aviso: a origem AutoZapService não está registrada no computador local.
+Serviço AutoZapService está sendo removido do sistema...
+Serviço AutoZapService foi removido com êxito do sistema.
+Instalando o assembly 'C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.InstallLog
+   assemblypath = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe
+Instalando o serviço AutoZapService...
+Criando a origem de EventLog AutoZapService no log Application...
+Revertendo o assembly 'C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.InstallLog
+   assemblypath = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe
+Restaurando o log de eventos para o estado anterior da origem AutoZapService.
+Desinstalando o assembly 'C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.InstallLog
+   assemblypath = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe
+Removendo a origem do EventLog AutoZapService.
+Aviso: a origem AutoZapService não está registrada no computador local.
+Serviço AutoZapService está sendo removido do sistema...
+Serviço AutoZapService foi removido com êxito do sistema.
+Instalando o assembly 'C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.InstallLog
+   assemblypath = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe
+Instalando o serviço AutoZapService...
+Serviço AutoZapService foi instalado com êxito.
+Criando a origem de EventLog AutoZapService no log Application...
+Confirmando o assembly 'C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.InstallLog
+   assemblypath = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe
+Desinstalando o assembly 'C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.InstallLog
+   assemblypath = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe
+Removendo a origem do EventLog AutoZapService.
+Serviço AutoZapService está sendo removido do sistema...
+Serviço AutoZapService foi removido com êxito do sistema.
+Desinstalando o assembly 'C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.InstallLog
+   assemblypath = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe
+Removendo a origem do EventLog AutoZapService.
+Aviso: a origem AutoZapService não está registrada no computador local.
+Serviço AutoZapService está sendo removido do sistema...
+Ocorreu uma exceção durante a desinstalação do instalador System.ServiceProcess.ServiceInstaller.
+System.ComponentModel.Win32Exception: O serviço especificado não existe como serviço instalado
+Ocorreu uma exceção ao desinstalar. Essa exceção será ignorada e a desinstalação continuará. Mas talvez o aplicativo não seja totalmente desinstalado após a conclusão da desinstalação.
+Instalando o assembly 'C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.InstallLog
+   assemblypath = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe
+Instalando o serviço AutoZapService...
+Serviço AutoZapService foi instalado com êxito.
+Criando a origem de EventLog AutoZapService no log Application...
+Confirmando o assembly 'C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.InstallLog
+   assemblypath = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZapService\bin\Debug\AutoZapService.exe

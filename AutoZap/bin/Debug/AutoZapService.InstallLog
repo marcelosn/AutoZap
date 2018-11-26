@@ -1,0 +1,13 @@
+﻿Instalando o assembly 'C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZap\bin\Debug\AutoZapService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZap\bin\Debug\AutoZapService.InstallLog
+   assemblypath = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZap\bin\Debug\AutoZapService.exe
+Não foi possível encontrar instaladores públicos com o atributo RunInstallerAttribute.Yes no assembly C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZap\bin\Debug\AutoZapService.exe.
+Confirmando o assembly 'C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZap\bin\Debug\AutoZapService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZap\bin\Debug\AutoZapService.InstallLog
+   assemblypath = C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZap\bin\Debug\AutoZapService.exe
+Não foi possível encontrar instaladores públicos com o atributo RunInstallerAttribute.Yes no assembly C:\Users\paulo.corcino\Documents\Visual Studio 2013\Projects\AutoZap\AutoZap\bin\Debug\AutoZapService.exe.
+Remova o arquivo InstallState porque não há instaladores.

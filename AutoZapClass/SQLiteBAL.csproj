@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A3A816F3-43F7-41D0-90D1-1580DF66EA09}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SQLiteBAL</RootNamespace>
+    <AssemblyName>SQLiteBAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.92.0\lib\net40\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.92.0\lib\net40\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="WhatsAppApi, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\WhatsAPINet-master\WhatsAppApi\bin\Release\WhatsAppApi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\DataShapes\TbConfig.cs" />
+    <Compile Include="Common\DataShapes\TbContatos.cs" />
+    <Compile Include="Common\DataShapes\TbGatilho.cs" />
+    <Compile Include="Common\DataShapes\TbGatilhoGrupo.cs" />
+    <Compile Include="Common\DataShapes\TbGroup.cs" />
+    <Compile Include="Common\DataShapes\TbGroupContatos.cs" />
+    <Compile Include="Common\NullValues.cs" />
+    <Compile Include="Common\Util.cs" />
+    <Compile Include="Persistence\DataMappers\DataMapperFactory.cs" />
+    <Compile Include="Persistence\DataMappers\GenericMapper.cs" />
+    <Compile Include="Persistence\DataMappers\IDataMapper.cs" />
+    <Compile Include="Persistence\DataMappers\TbConfigMapper.cs" />
+    <Compile Include="Persistence\DataMappers\TbContatosMapper.cs" />
+    <Compile Include="Persistence\DataMappers\TbGatilhoGrupoMapper.cs" />
+    <Compile Include="Persistence\DataMappers\TbGatilhoMapper.cs" />
+    <Compile Include="Persistence\DataMappers\TbGroupContatosMapper.cs" />
+    <Compile Include="Persistence\DataMappers\TbGroupMapper.cs" />
+    <Compile Include="Persistence\Persisters\CreateStructs.cs" />
+    <Compile Include="Persistence\Persisters\TbConfigPersistente.cs" />
+    <Compile Include="Persistence\Persisters\TbContatosPersistente.cs" />
+    <Compile Include="Persistence\Persisters\TbGatilhoGrupoPersistente.cs" />
+    <Compile Include="Persistence\Persisters\TbGatilhoPersistente.cs" />
+    <Compile Include="Persistence\Persisters\TbGroupContatosPersistente.cs" />
+    <Compile Include="Persistence\Persisters\TbGroupPersistente.cs" />
+    <Compile Include="Persistence\SqlDao.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ContatosService.cs" />
+    <Compile Include="Services\GatilhoService.cs" />
+    <Compile Include="Services\GrupoService.cs" />
+    <Compile Include="Services\OpcoesService.cs" />
+    <Compile Include="Services\ServiceBase.cs" />
+    <Compile Include="Services\WhatAppCode\CountryEntry.cs" />
+    <Compile Include="Services\WhatAppCode\CountryHelper.cs" />
+    <Compile Include="Services\WhatsAppService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Rules\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="x64\SQLite.Interop.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x86\SQLite.Interop.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <EmbeddedResource Include="Services\WhatAppCode\countries.tsv" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
